@@ -1,0 +1,19 @@
+.link {
+    padding: 9px 12px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    color: var(--muted);
+    transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+
+.link:hover {
+    border-color: rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.05);
+    color: var(--text);
+}
+
+.active {
+    color: var(--text);
+    background: rgba(255,255,255,0.06);
+    border-color: rgba(255,255,255,0.16);
+}
